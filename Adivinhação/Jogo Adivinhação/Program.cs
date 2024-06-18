@@ -4,7 +4,6 @@
 
         Random random = new Random();
         int aleatorio = random.Next(0,20);
-        Console.WriteLine(aleatorio);
 
         Console.Write($"Tente acertar um número entre 0 e 20 (3 chances) : ");
         int num = Convert.ToInt16(Console.ReadLine());
